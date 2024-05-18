@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAGÃO 2.0</title>
+    <link rel="icon" href="unnamed-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <audio  id="meuAudio">
+        <source src="TQApI64Udso_128.mp3" type="audio/mp3">
+    </audio>
+
+<header class="cabecalho">
+    <nav class="container">  
+        <!--logo--> 
+        <div class="logo">
+            <img src="esse.png" alt="logo" id="test">
+        </div> 
+       <!--navbar-->
+        <div class="linkPai">
+            <a href="#" class="social-links">Página Inicial</a> 
+            <a href="#"  class="social-links">Benefícios</a> 
+            <a href="#" class="social-links" >Depoimentos</a> 
+            <a href="#"  class="social-links">Contato</a> 
+        </div>
+        <!--icones-->
+        <div class="icon">
+            <a href="#" class="sm-icon">
+                <i class='bx bxs-home'></i>
+            </a>
+            <a href="#" class="sm-icon">
+                <i class='bx bxs-cart'></i>
+            </a>
+            <a href="#" class="sm-icon">
+                <i class='bx bxs-chat'></i>
+            </a>
+            <a href="#" class="sm-icon">
+                <i class='bx bxs-cog' ></i>
+            </a>
+            <a href="#" class="sm-icon">
+                <i class='bx bxs-message-error' ></i>
+            </a>
+        </div>
+    </nav> 
+</header>
+
+    <section class="containerEsquerdo">
+        <h1 class="titulo">"Domine, Vença, Brilhe!"</h1>
+        <p class="textinho">"Desbloqueie o poder das cartas com nossa Caixa de Cartas de Yu-Gi-Oh!</p>
+        <p class="textinho">O segredo para a vitória está ao seu alcance."</p>
+        <div class="wrapper">
+            <div class="link_wrapper">
+              <a href="#" class="abom">COMPRAR</a>
+              <div class="xyz">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                  <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+    </section>
+
+    <section class="containerDireito">
+        <div class="containerImage">
+            <img
+            data-aos="fade-up-left"
+            data-aos-delay="450"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out" 
+            alt="dragão arcoiris" class="foto1" src="71x5J7nuQDL._AC_UF894_1000_QL80_-removebg-preview.png">
+            <img 
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out" 
+            alt="dragão branco" class="foto2" src="br-11134201-22120-g2l1w49093kv41-removebg-preview.png">
+        </div>
+         
+
+    </section>
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    <script>
+        var meuAudio = document.getElementById("meuAudio");
+        var logo = document.getElementById("test");
+
+        // Adicione um evento de clique à logo
+        logo.addEventListener("click", function() {
+        if (meuAudio.paused) {
+            meuAudio.play(); // Se o áudio estiver pausado, inicie a reprodução
+        } else {
+            meuAudio.pause(); // Se o áudio estiver tocando, pause a reprodução
+        }
+        });
+    </script>
+
+</body>
+</html>
